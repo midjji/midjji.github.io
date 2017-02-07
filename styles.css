@@ -21,3 +21,9 @@ body{
     height: 2000px;
     margin: 70px auto;
 }
+
+code { 
+    font-family: monospace;
+    display: block;
+  	white-space: pre-wrap   
+}
