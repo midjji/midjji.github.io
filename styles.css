@@ -1,7 +1,27 @@
 /* nav bar should be fixed */
+body{
+    margin:0px;
+    background:#000;
+}
+.header {
+    height:320px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
+.content {
+    width:960px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 2000px;
+    margin: 20px auto;
+}
+/*
 .headercss {
     width: 100%;
     height: 320px;
     background-color: #000000;
     position: fixed;
 }
+*/
