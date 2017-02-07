@@ -29,12 +29,39 @@ Practices:
 	<title>Midjji Index</title>
 </head>
 <body>
+<div>
+<!--The navigation bar with its own style-->
+
+  <style scoped>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 60px;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+  </style>
 <ul>
   <li><a href="default.asp">Home</a></li>
   <li><a href="news.asp">News</a></li>
   <li><a href="contact.asp">Contact</a></li>
   <li><a href="about.asp">About</a></li>
 </ul>
+</div>
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 <h1>This is a Heading</h1>
